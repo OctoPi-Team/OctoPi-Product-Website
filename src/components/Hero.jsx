@@ -11,7 +11,7 @@ function Hero(props) {
         className={
           "w-60 h-60 object-cover rounded-full drop-shadow-2xl md:h-96 md:w-96"
         }
-        src={"/Placeholder.png"}
+        src={"/Map.png"}
         alt={"First Gameplay Scene"}
       />
       <p className={"text-2xl md:text-4xl"}>

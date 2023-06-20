@@ -8,21 +8,18 @@ import GameConcept from "./components/GameConcept";
 function App() {
   return (
     <>
+      {/* TODO Video and Images from recent main branch */}
       <NavigationBar text={"OctoPi"} />
       <Hero text={"Willkommen zu unserer Homepage zu unserem Spiel"} />
       <GameConcept />
       <Video
         text={"Laufe zur Plattform und spiele ein Minispiel!"}
-        video={""}
-        backgroundColor={"white"}
-        textColor={"text-black"}
+        video={"/Movie.mov"}
       />
       <Platform text={"Unsere Plattform, die Du erkunden kannst:"} />
       <Video
         text={"Klicke auf die Röhren um an Ziel zu kommen!"}
-        video={""}
-        backgroundColor={"bg-logo-blue"}
-        textColor={"text-white"}
+        video={"/Second_Movie.mov"}
       />
     </>
   );
