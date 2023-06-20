@@ -5,6 +5,7 @@ import Platform from "./components/Platform.jsx";
 import Video from "./components/Video.jsx";
 import GameConcept from "./components/GameConcept";
 import Footer from "./components/Footer";
+import Compatibility from "./components/Compatibility";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           "Shipment, Design, Engineering, Production, Parts und Monitoring."
         }
       />
+      <Compatibility />
       <Video
         text={"Klicke auf die Röhren um an Ziel zu kommen!"}
         video={"/Second_Movie.mov"}
