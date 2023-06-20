@@ -1,4 +1,5 @@
 import React from "react";
+import Gameplay from "/Gameplay.png";
 
 function Platform(props) {
   return (
@@ -12,7 +13,7 @@ function Platform(props) {
         className={
           "w-60 h-60 object-cover rounded-full drop-shadow-2xl md:w-80 md:h-80"
         }
-        src={"/Gameplay.png"}
+        src={Gameplay}
         alt={"Second Gameplay Scene"}
       />
     </div>
