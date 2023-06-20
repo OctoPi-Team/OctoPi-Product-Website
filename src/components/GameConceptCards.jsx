@@ -2,8 +2,8 @@ import React from "react";
 
 function GameConceptCards(props) {
   return (
-    <div className="w-72 h-96 bg-white">
-      <div className="w-full h-14 bg-logo-blue-dark text-center text-white text-2xl flex justify-center gap-5 items-center">
+    <div className="w-72 h-96 bg-white rounded-md">
+      <div className="w-full h-14 bg-logo-blue-dark text-center text-white text-2xl flex justify-center gap-5 items-center rounded-t-md">
         <img className="rounded-full w-14 h-14 p-2" src={props.image} />
         <div>{props.header}</div>
       </div>

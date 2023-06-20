@@ -1,5 +1,8 @@
 import React from "react";
 import GameConceptCards from "./GameConceptCards";
+import storyImage from "/Story.png";
+import playGameImage from "/Spiel starten.png";
+import innovationFactoryImage from "/InnovationFactory.png";
 
 function GameConcept() {
   return (
@@ -11,7 +14,7 @@ function GameConcept() {
           text={
             "Spieler wird von dem Kunden beauftragt, ihre SAP BTP Fabrik zu renovieren. [...]"
           }
-          image={"/Story.png"}
+          image={storyImage}
         />
         <br />
         <GameConceptCards
@@ -19,7 +22,7 @@ function GameConcept() {
           text={
             "Spieler läuft auf der Overworld herum und repariert die Fabrik, indem er Minispiele spielt. [...]"
           }
-          image={"/Spiel starten.png"}
+          image={playGameImage}
         />
         <br />
         <GameConceptCards
@@ -27,7 +30,7 @@ function GameConcept() {
           text={
             "Wenn der Spieler alle Spiele absolviert hat, entsteht als Endprodukt die Innovation Factory. [...]"
           }
-          image={"/InnovationFactory.png"}
+          image={innovationFactoryImage}
         />
       </div>
     </div>

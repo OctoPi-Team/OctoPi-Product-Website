@@ -4,25 +4,36 @@ import Hero from "./components/Hero.jsx";
 import Platform from "./components/Platform.jsx";
 import Video from "./components/Video.jsx";
 import GameConcept from "./components/GameConcept";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       {/* TODO Video and Images from recent main branch */}
-      <NavigationBar text={"OctoPi"} />
+      <NavigationBar logoNameText={"OctoPi"} />
       <Hero text={"Willkommen zu unserer Homepage zu unserem Spiel"} />
       <GameConcept />
       <Video
         text={"Laufe zur Plattform und spiele ein Minispiel!"}
         video={"/Movie.mov"}
-        description={"Description. [...]"}
+        description={
+          "Bewege dich in Richtung goldene Plattform um ein Minispiel zu starten. Wenn du das Minispiel gelöst hast erscheinst du automatisch wieder auf die Hauptplattform."
+        }
       />
-      <Platform text={"Unsere Plattform, die Du erkunden kannst:"} />
+      <Platform
+        text={"Unsere 6 Plattformen, die Du erkunden kannst:"}
+        description={
+          "Shipment, Design, Engineering, Production, Parts und Monitoring."
+        }
+      />
       <Video
         text={"Klicke auf die Röhren um an Ziel zu kommen!"}
         video={"/Second_Movie.mov"}
-        description={"Description. [...]"}
+        description={
+          "Sobald du alle Röhren mit dem Trichter verbunden hast, gewinnst du."
+        }
       />
+      <Footer />
     </>
   );
 }
