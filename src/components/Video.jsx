@@ -14,7 +14,10 @@ function Video(props) {
         loop={true}
         muted
       ></video>
-      {props.text}
+      <div className="flex flex-col items-center">
+        {props.text}
+        <p className="text-gray text-lg">{props.description}</p>
+      </div>
     </div>
   );
 }

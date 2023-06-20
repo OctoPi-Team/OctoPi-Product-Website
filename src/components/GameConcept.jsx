@@ -9,7 +9,7 @@ function GameConcept() {
         <GameConceptCards
           header={"Story"}
           text={
-            "Spieler wird von dem Kunden beauftragt, ihre SAP BTP Fabrik zu renovieren."
+            "Spieler wird von dem Kunden beauftragt, ihre SAP BTP Fabrik zu renovieren. [...]"
           }
           image={"/Story.png"}
         />
@@ -17,7 +17,7 @@ function GameConcept() {
         <GameConceptCards
           header={"Spiel starten"}
           text={
-            "Spieler läuft auf der Overworld herum und repariert die Fabrik, indem er Minispiele spielt."
+            "Spieler läuft auf der Overworld herum und repariert die Fabrik, indem er Minispiele spielt. [...]"
           }
           image={"/Spiel starten.png"}
         />
@@ -25,7 +25,7 @@ function GameConcept() {
         <GameConceptCards
           header={"Innovation Factory"}
           text={
-            "Wenn der Spieler alle Spiele absolviert hat, entsteht als Endprodukt die Innovation Factory."
+            "Wenn der Spieler alle Spiele absolviert hat, entsteht als Endprodukt die Innovation Factory. [...]"
           }
           image={"/InnovationFactory.png"}
         />

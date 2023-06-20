@@ -15,11 +15,13 @@ function App() {
       <Video
         text={"Laufe zur Plattform und spiele ein Minispiel!"}
         video={"/Movie.mov"}
+        description={"Description. [...]"}
       />
       <Platform text={"Unsere Plattform, die Du erkunden kannst:"} />
       <Video
         text={"Klicke auf die Röhren um an Ziel zu kommen!"}
         video={"/Second_Movie.mov"}
+        description={"Description. [...]"}
       />
     </>
   );

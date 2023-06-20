@@ -14,6 +14,7 @@ export default {
       white: "#ffffff",
       green: "green",
       black: "black",
+      gray: "gray",
     },
   },
   plugins: [],

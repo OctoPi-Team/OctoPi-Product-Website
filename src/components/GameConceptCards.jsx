@@ -7,7 +7,7 @@ function GameConceptCards(props) {
         <img className="rounded-full w-14 h-14 p-2" src={props.image} />
         <div>{props.header}</div>
       </div>
-      <p className="text-xl text-center flex items-center h-60 md:h-72 md:text-2xl p-5">
+      <p className="text-xl text-gray text-center flex items-center h-60 md:h-72 md:text-1xl p-5">
         {props.text}
       </p>
     </div>
