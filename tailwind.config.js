@@ -10,9 +10,10 @@ export default {
   theme: {
     colors: {
       "logo-blue": "#6392CA",
-      "logo-blue-dark": "#000C66",
+      "logo-blue-dark": "#4D75A6",
       white: "#ffffff",
       green: "green",
+      black: "black",
     },
   },
   plugins: [],

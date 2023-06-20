@@ -2,9 +2,7 @@ import React from "react";
 function Video(props) {
   return (
     <div
-      className={
-        "bg-logo-blue text-white w-full h-96 flex justify-center items-center text-2xl flex-col"
-      }
+      className={`${props.backgroundColor} ${props.textColor} w-full h-96 flex justify-center items-center text-2xl flex-col`}
     >
       {props.text}
       <video

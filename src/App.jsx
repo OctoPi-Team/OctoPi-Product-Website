@@ -14,9 +14,16 @@ function App() {
       <Video
         text={"Laufe zur Plattform und spiele ein Minispiel!"}
         video={""}
+        backgroundColor={"white"}
+        textColor={"text-black"}
       />
       <Platform text={"Unsere Plattform, die Du erkunden kannst:"} />
-      <Video text={"Klicke auf die Röhren um an Ziel zu kommen!"} video={""} />
+      <Video
+        text={"Klicke auf die Röhren um an Ziel zu kommen!"}
+        video={""}
+        backgroundColor={"bg-logo-blue"}
+        textColor={"text-white"}
+      />
     </>
   );
 }
