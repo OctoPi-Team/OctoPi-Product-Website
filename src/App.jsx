@@ -16,7 +16,7 @@ function App() {
       <GameConcept />
       <Video
         text={"Laufe zur Plattform und spiele ein Minispiel!"}
-        video={"/Movie.mov"}
+        video={"/Minigame.mov"}
         description={
           "Bewege dich in Richtung goldene Plattform um ein Minispiel zu starten. Wenn du das Minispiel gelöst hast erscheinst du automatisch wieder auf die Hauptplattform."
         }
@@ -30,7 +30,7 @@ function App() {
       <Compatibility />
       <Video
         text={"Klicke auf die Röhren um an Ziel zu kommen!"}
-        video={"/Second_Movie.mov"}
+        video={"/Overworld.mov"}
         description={
           "Sobald du alle Röhren mit dem Trichter verbunden hast, gewinnst du."
         }

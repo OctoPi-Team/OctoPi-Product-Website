@@ -1,4 +1,6 @@
 import React from "react";
+import iPad from "/iPad.png";
+import Mac from "/Mac.png";
 
 function Compatibility() {
   return (
@@ -10,12 +12,12 @@ function Compatibility() {
       <p className="text-4xl">Kompatibilität</p>
       <img
         className={"w-52 h-52 object-contain md:w-80 md:h-80"}
-        src={"/Mac.png"}
+        src={Mac}
         alt={"Mac"}
       />
       <img
         className={"w-52 h-52 object-contain md:w-80 md:h-80"}
-        src={"/iPad.png"}
+        src={iPad}
         alt={"iPad"}
       />
     </div>
