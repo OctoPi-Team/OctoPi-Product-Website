@@ -14,7 +14,9 @@ function Video(props) {
         autoPlay={true}
         loop={true}
         muted
-      ></video>
+      >
+        <source src={`${props.video}`} type="video/mp4" />
+      </video>
       <div className="flex flex-col items-center">
         {props.text}
         <p className="text-gray text-lg w-96 text-center lg:w-[550px] lg:mt-5">
