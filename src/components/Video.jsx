@@ -10,7 +10,6 @@ function Video(props) {
       <video
         width={600}
         className={"p-5 rounded-3xl drop-shadow-2xl"}
-        src={`${props.video}`}
         autoPlay={true}
         loop={true}
         muted
