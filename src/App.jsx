@@ -6,6 +6,8 @@ import Video from "./components/Video.jsx";
 import GameConcept from "./components/GameConcept";
 import Footer from "./components/Footer";
 import Compatibility from "./components/Compatibility";
+import Overworld from "../public/Overworld.mp4";
+import Minigame from "../public/Minigame.mp4";
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
       <GameConcept />
       <Video
         text={"Laufe zur Plattform und spiele ein Minispiel!"}
-        video={"/Minigame.mp4"}
+        video={Minigame}
         description={
           "Bewege dich in Richtung goldene Plattform um ein Minispiel zu starten. Wenn du das Minispiel gelöst hast erscheinst du automatisch wieder auf die Hauptplattform."
         }
@@ -30,7 +32,7 @@ function App() {
       <Compatibility />
       <Video
         text={"Klicke auf die Röhren um an Ziel zu kommen!"}
-        video={"/Overworld.mp4"}
+        video={Overworld}
         description={
           "Sobald du alle Röhren mit dem Trichter verbunden hast, gewinnst du."
         }
