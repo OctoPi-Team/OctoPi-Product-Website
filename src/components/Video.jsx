@@ -14,7 +14,7 @@ function Video(props) {
         loop={true}
         muted
       >
-        <source src={`${props.video}`} type="video/mp4" />
+        <source src={props.video} type="video/mp4" />
       </video>
       <div className="flex flex-col items-center">
         {props.text}
