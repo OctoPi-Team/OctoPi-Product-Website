@@ -10,17 +10,17 @@ function GameConcept() {
       <p className="text-5xl text-white mb-10 lg:mb-0">Unser Spielkonzept</p>
       <div className="md:flex-row md:gap-10 md:mt-10 lg:flex">
         <GameConceptCards
-          header={"Story"}
+          header={"Einstieg"}
           text={
-            "Spieler wird von dem Kunden beauftragt, ihre SAP BTP Fabrik zu renovieren. [...]"
+            "Spieler wird von dem Kunden beauftragt, ihre SAP BTP Fabrik zu renovieren. Die Plattformen sind kaputt und unser Sovanta Mitarbeiter eilt um Rettung anzubieten"
           }
           image={storyImage}
         />
         <br />
         <GameConceptCards
-          header={"Spiel starten"}
+          header={"Spiel spielen"}
           text={
-            "Spieler läuft auf der Overworld herum und repariert die Fabrik, indem er Minispiele spielt. [...]"
+            "Spieler erkundet die Spielwelt und repariert die Fabrik, indem er Minispiele spielt. Wenn er das Spiel erfolgreich fertig gespielt hat, ist die Plattform wiederhergestellt."
           }
           image={playGameImage}
         />
@@ -28,7 +28,7 @@ function GameConcept() {
         <GameConceptCards
           header={"Innovation Factory"}
           text={
-            "Wenn der Spieler alle Spiele absolviert hat, entsteht als Endprodukt die Innovation Factory. [...]"
+            "Wenn du alle Minispiele absolviert hat, entsteht als Endprodukt die Innovation Factory for SAP BTP. Also nicht wie los!"
           }
           image={innovationFactoryImage}
         />

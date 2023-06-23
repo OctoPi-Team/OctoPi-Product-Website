@@ -18,7 +18,7 @@ function Hero(props) {
       <p className={"text-2xl md:text-4xl"}>
         {props.text}
         <br />
-        <span className={"text-3xl md:text-7xl"}>Operation : </span>
+        <span className={"text-3xl md:text-7xl"}>Operation: </span>
         <span className={"text-logo-blue text-3xl md:text-7xl"}>
           Innovation
         </span>

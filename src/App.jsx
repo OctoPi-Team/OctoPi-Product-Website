@@ -18,10 +18,13 @@ function App() {
       <GameConcept />
       <Video
         text={"Laufe zur Plattform und spiele ein Minispiel!"}
-        video={Minigame}
+        video={Overworld}
         description={
           "Bewege dich in Richtung goldene Plattform um ein Minispiel zu starten. Wenn du das Minispiel gelöst hast erscheinst du automatisch wieder auf die Hauptplattform."
         }
+        backgroundColor={"white"}
+        textColor={"text-black"}
+        descriptionColor={"text-gray"}
       />
       <Platform
         text={"Unsere 6 Plattformen, die Du erkunden kannst:"}
@@ -32,10 +35,13 @@ function App() {
       <Compatibility />
       <Video
         text={"Klicke auf die Röhren um an Ziel zu kommen!"}
-        video={Overworld}
+        video={Minigame}
         description={
           "Sobald du alle Röhren mit dem Trichter verbunden hast, gewinnst du."
         }
+        backgroundColor={"bg-logo-blue"}
+        textColor={"text-white"}
+        descriptionColor={"text-white"}
       />
       <Footer />
     </>
