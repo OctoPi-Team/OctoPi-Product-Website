@@ -21,7 +21,7 @@ function App() {
         text={"Laufe zur Plattform und spiele ein Minispiel!"}
         video={Overworld}
         description={
-          "Bewege dich in Richtung goldene Plattform um ein Minispiel zu starten. Wenn du das Minispiel gelöst hast erscheinst du automatisch wieder auf die Hauptplattform."
+          "Bewege dich in Richtung goldener Druckplatte, um ein Minispiel zu starten. Wenn du das Minispiel gelöst hast, kommst du automatisch wieder auf die jeweilige Plattform."
         }
         backgroundColor={"white"}
         textColor={"text-black"}
@@ -35,7 +35,7 @@ function App() {
       />
       <Compatibility />
       <Video
-        text={"Klicke auf die Röhren um an Ziel zu kommen!"}
+        text={"Klicke auf die Röhren um ans Ziel zu kommen!"}
         video={Minigame}
         description={
           "Sobald du alle Röhren mit dem Trichter verbunden hast, gewinnst du."
