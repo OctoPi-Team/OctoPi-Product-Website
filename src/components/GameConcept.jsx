@@ -14,7 +14,7 @@ function GameConcept() {
         <GameConceptCards
           header={"Einstieg"}
           text={
-            "Spieler wird von dem Kunden beauftragt, ihre SAP BTP Fabrik zu renovieren. Die Plattformen sind kaputt und unser Sovanta Mitarbeiter eilt um Rettung anzubieten"
+            "Spieler wird von dem Kunden beauftragt, ihre SAP BTP Fabrik zu renovieren. Die Plattformen sind kaputt und unser sovanta Mitarbeiter eilt um Rettung anzubieten."
           }
           image={storyImage}
         />
@@ -30,7 +30,7 @@ function GameConcept() {
         <GameConceptCards
           header={"Innovation Factory"}
           text={
-            "Wenn du alle Minispiele absolviert hat, entsteht als Endprodukt die Innovation Factory for SAP BTP. Also nicht wie los!"
+            "Wenn du alle Minispiele absolviert hat, entsteht als Endprodukt die Innovation Factory for SAP BTP. Also nichts wie los!"
           }
           image={innovationFactoryImage}
         />
