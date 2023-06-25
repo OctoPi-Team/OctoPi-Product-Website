@@ -7,7 +7,9 @@ import innovationFactoryImage from "/InnovationFactory.png";
 function GameConcept() {
   return (
     <div className="bg-logo-blue w-full h-[1400px] flex justify-center items-center flex-col p-5 lg:h-[700px]">
-      <p className="text-5xl text-white mb-10 lg:mb-0">Unser Spielkonzept</p>
+      <p className="text-5xl text-white mb-10 lg:mb-0" id="click">
+        Unser Spielkonzept
+      </p>
       <div className="md:flex-row md:gap-10 md:mt-10 lg:flex">
         <GameConceptCards
           header={"Einstieg"}

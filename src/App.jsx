@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Compatibility from "./components/Compatibility";
 import Overworld from "../public/Overworld.mp4";
 import Minigame from "../public/Minigame.mp4";
+import "animate.css";
 
 function App() {
   return (

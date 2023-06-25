@@ -22,6 +22,11 @@ function Hero(props) {
         <span className={"text-logo-blue text-3xl md:text-7xl"}>
           Innovation
         </span>
+        <br />
+        <br />
+        <button className="animate__animated animate__pulse animate__infinite infinite bg-logo-blue text-white rounded-full py-3 px-8">
+          <a href="#click">Weitere Informationen</a>
+        </button>
       </p>
     </div>
   );
