@@ -5,7 +5,7 @@ function Hero(props) {
   return (
     <div
       className={
-        "w-full h-[600px] flex justify-between items-center gap-5 p-5 text-center md:px-32"
+        "w-full h-[500px] flex justify-between items-center gap-5 p-5 text-center flex-col md:px-32 md:h-[600px] md:flex-row"
       }
     >
       <img
